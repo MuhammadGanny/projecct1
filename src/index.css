@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,43 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+body {
+  margin: 0;
+  
+  background-color: #ffffff;
 }
+* {
+  box-sizing: border-box;
+}
+.Whole-Conatainer{
+  height: 868px;
+  width: 550px;
+  margin-left: 30%;
+  background-color: rgb(48, 47, 47);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card{
+ 
+  width: 30%;
+  height: 40%;
+}
+
+
+.picture-con{
+  height: 30%;
+}
+.picture{
+  width: 550px; /* Adjust the picture width as per your requirement */
+  height: 350px; /* Adjust the picture height as per your requirement */
+  border-radius: 50%;
+  object-fit: cover; /* Ensure the image retains its aspect ratio while covering the container */
+  margin-left: 10%;
+  
+}
+
