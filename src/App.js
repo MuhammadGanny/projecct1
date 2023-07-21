@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+import twitterLogo from './twitter.png';
+import githubLogo from './github.png';
+import linkedinLogo from './linkedin.png';
 
 
 function App() {
@@ -16,6 +19,11 @@ function App() {
           <p>I am a full stack developer starting my journy fromm systems </p>
           <h2>Intrest</h2>
           <p>I am a car enthusiast and love doing gym  </p>
+        </div>
+        <div className="social-icons">
+          <img src={twitterLogo} alt="Twitter" />
+          <img src={githubLogo} alt="GitHub" />
+          <img src={linkedinLogo} alt="LinkedIn" />
         </div>
         
       </div>

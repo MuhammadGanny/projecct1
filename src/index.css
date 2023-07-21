@@ -65,7 +65,7 @@ body {
   display: flex; /* Use flex to center the content */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  height: 100vh; /* Set the height of the whole container to the full viewport height */
+  min-height: 100vh; /* Set the minimum height of the whole container to the full viewport height */
 }
 
 * {
@@ -73,8 +73,8 @@ body {
 }
 
 .card {
-  width: 550px;
-  height: 450px;
+  width: 490px;
+  height: 530px;
   background-color: rgb(48, 47, 47);
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -85,7 +85,7 @@ body {
 }
 
 .picture-con {
-  height: 30%;
+  flex: 1; /* Take up 30% of the card's height */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,7 +100,7 @@ body {
 }
 
 .details {
-  flex: 1;
+  flex: 1; /* Take up 70% of the card's height */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,4 +126,16 @@ p {
   color: #ffffff;
   padding: 5px;
   margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px; /* Add some horizontal spacing between the icons */
 }
